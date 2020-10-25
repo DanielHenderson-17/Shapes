@@ -1,0 +1,42 @@
+body, html {
+    background-color: black;
+}
+
+h1 {
+    color: White;
+}
+
+#square {
+    width: 130px;
+    height: 130px;
+    background: red;
+}
+
+#circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: green;
+}
+
+#up-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid blue;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+
+#pacman {
+    width: 0;
+    height: 0;
+    border-right: 70px solid transparent;
+    border-top: 70px solid #ffde00;
+    border-left: 70px solid #ffde00;
+    border-bottom: 70px solid #ffde00;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
